@@ -1,0 +1,85 @@
+[
+    {
+      "id": 1,
+      "title": "Cardiac Arrest in Public",
+      "description": "You're in a shopping mall when you see a middle-aged man collapse. He's not breathing and has no pulse. What do you do?",
+      "mediaType": "video",
+      "mediaUrl": "https://example.com/videos/cardiac-arrest-scenario.mp4",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Start CPR immediately",
+          "outcome": "You begin chest compressions and rescue breaths. Emergency services arrive within 10 minutes and take over.",
+          "survivability": 0.7
+        },
+        {
+          "id": "B",
+          "text": "Call for help and wait for emergency services",
+          "outcome": "You call 911 but don't start CPR. Emergency services arrive after 10 minutes, but it might be too late.",
+          "survivability": 0.3
+        },
+        {
+          "id": "C",
+          "text": "Look for an AED (Automated External Defibrillator)",
+          "outcome": "You quickly locate an AED nearby, apply it as instructed, and follow its prompts until emergency services arrive.",
+          "survivability": 0.8
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Severe Bleeding from a Cut",
+      "description": "Your friend accidentally cuts their arm while cooking. The cut is deep and bleeding profusely. What's your first action?",
+      "mediaType": "video",
+      "mediaUrl": "https://example.com/images/severe-bleeding-scenario.jpg",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Apply direct pressure to the wound",
+          "outcome": "You use a clean cloth to apply firm, direct pressure to the wound. The bleeding slows significantly.",
+          "survivability": 0.9
+        },
+        {
+          "id": "B",
+          "text": "Create a tourniquet",
+          "outcome": "You attempt to create a tourniquet, but it's not necessary for this type of wound and could cause further complications.",
+          "survivability": 0.6
+        },
+        {
+          "id": "C",
+          "text": "Run the cut under cold water",
+          "outcome": "Running the cut under water might clean it, but it doesn't effectively stop the bleeding.",
+          "survivability": 0.5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Choking at a Restaurant",
+      "description": "While dining out, you notice a person at a nearby table showing signs of choking. They can't speak or breathe. What do you do?",
+      "mediaType": "video",
+      "mediaUrl": "https://example.com/videos/choking-scenario.mp4",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Perform the Heimlich maneuver",
+          "outcome": "You quickly perform the Heimlich maneuver. After a few thrusts, the object is dislodged and the person can breathe again.",
+          "survivability": 0.9
+        },
+        {
+          "id": "B",
+          "text": "Offer them water to drink",
+          "outcome": "Offering water to a choking person can make the situation worse as it might cause complete airway obstruction.",
+          "survivability": 0.2
+        },
+        {
+          "id": "C",
+          "text": "Slap them on the back repeatedly",
+          "outcome": "Back slaps can be effective for choking, but the Heimlich maneuver is generally more effective for adults.",
+          "survivability": 0.7
+        }
+      ]
+    }
+  ]
+  
+  
